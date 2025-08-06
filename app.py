@@ -1,12 +1,12 @@
 import streamlit as st 
 
-st.title("My Streamlit Project")
+st.title("Rajas Streamlit Project")
 st.write("This is the place where you can write any description or any text")
 
 #for slider
 st.title('Interactive Slider Example')
 slider_value = st.slider("Select a value", 0, 100, 50)
-st.write(f"You selected value{slider_value}!")
+st.write(f"You selected value {slider_value}!")
 
 #checkbox
 
@@ -19,5 +19,5 @@ else:
     
 #for text input
 st.title('Interactive Text Input Example')
-user_text = st.text_input("Enter some text", "Type here...")
+user_text = st.text_input("Enter some text")
 st.write(f"You entered: {user_text}")
